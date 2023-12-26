@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Weather Website</title>
+</head>
+<body>
+    <div class="card">
+        
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button class="search-button">
+                <img src="./images/search.png"/>
+            </button>
+        </div>
+        
+        <div class="new">
+        <div class="weather">
+            <img src="./images/snow.png" class="cloud-image"/>
+            <h1 class="temp">
+                22°C
+            </h1>
+            <h2 class="city">
+                New York
+            </h2>
+        </div>
+
+        <div class="details">
+
+            <img class="photos" src="./images/humidity.png" />
+            <div class="info">
+                <div class="percent">
+                    <p class="humidity">
+                        50%
+                    </p>
+                </div>
+                <div class="description">
+                    <p>
+                        Humidity
+                    </p>
+                </div>
+            </div>
+
+            <img class="photos" src="./images/wind.png" />
+            <div class="info">
+                <div class="percent">
+                    <p class="wind">
+                        15 km/h
+                    </p>
+                </div>
+                <div class="description">
+                    <p>
+                        Wind Speed
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <script  src="index.js">
+ 
+    </script>
+</body>
+</html>
